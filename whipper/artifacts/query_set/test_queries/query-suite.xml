@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query-suite xmlns="http://xml.whipper.org/suite">
+    <queries>
+        <query name="Q_001">SELECT * FROM dataservicelayer.service</query>
+        <query name="Q_002">SELECT * FROM dataservicelayer.service where col1 = 3</query>
+    </queries>
+</query-suite>

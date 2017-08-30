@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<result xmlns="http://xml.whipper.org/result">
+    <query>SELECT * FROM dataservicelayer.service where col1 = 3</query>
+    <query-result name="Q_002">
+        <select>
+            <data-element type="integer">col1</data-element>
+            <data-element type="string">col2</data-element>
+        </select>
+        <table row-count="1" column-count="2">
+            <table-row>
+                <table-cell>
+                    <integer>3</integer>
+                </table-cell>
+                <table-cell>
+                    <string>third entry</string>
+                </table-cell>
+            </table-row>
+        </table>
+    </query-result>
+</result>
